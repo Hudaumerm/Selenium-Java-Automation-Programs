@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumfirstpkg.Extentreportspgm">
+      <class name="seleniumfirstpkg.LinkTextPgm">
         <methods>
-          <include name="setup"/>
-          <include name="bmthd"/>
-          <include name="titleVerification"/>
-          <include name="close"/>
-          <include name="browserclose"/>
+          <include name="setUp"/>
+          <include name="alerthandle"/>
+          <include name="handleTwoWindows"/>
+          <include name="checkBoxSelect"/>
+          <include name="multipleWindowHandle"/>
+          <include name="handlenormalDropdown"/>
         </methods>
-      </class> <!-- seleniumfirstpkg.Extentreportspgm -->
+      </class> <!-- seleniumfirstpkg.LinkTextPgm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
